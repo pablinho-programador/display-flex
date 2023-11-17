@@ -1,0 +1,44 @@
+section{
+    border: 2px solid red;
+}
+
+.iphone {
+    display: flex;
+    align-items: center;  /*Alinhamento do eixo transeversal */
+    justify-content: center;  /*Alinhamento do eixo principal */
+    gap: 4rem;  /*Espaçamento dos elementos do display-flex */
+
+    margin-bottom: 1rem;
+}
+
+.iphone img {
+    width: 20rem;
+}
+
+.iphone p {
+    width: 30rem;
+    text-align: center;
+}
+
+.samsung{
+    display: flex;
+    align-items: center;    
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.samsung img {
+    width: 20rem;
+}
+
+.samsung p{
+    width: 30rem;
+    text-align: center;
+}
+
+.formulario{
+    padding: 1rem;
+}
